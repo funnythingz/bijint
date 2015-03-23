@@ -6,6 +6,10 @@ module Bijint
       url(set_area, Time.now)
     end
 
+    def random
+      url(set_area, rand_time)
+    end
+
     def lgtm
       "[![bijint](#{url(set_area, Time.now)})](#{url(set_area, Time.now)})"
     end
@@ -16,6 +20,10 @@ module Bijint
 
     def set_area
       %w(tokyo).shuffle.first
+    end
+
+    def rand_time(from = Time.now, to = Time.now)
+      Time.at(rand(from.to_f .. to.to_f))
     end
   end
 end
