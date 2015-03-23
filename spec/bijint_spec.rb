@@ -1,11 +1,17 @@
 require 'spec_helper'
 
 describe Bijint do
-  it 'has a version number' do
-    expect(Bijint::VERSION).not_to be nil
+
+  describe 'now' do
+    let(:bijint_now) {
+      bijint = Bijint::Bijint.new
+      bijint.now
+    }
+
+    it {
+      time = Time.now
+      expect(bijint_now).to eq "http://www.bijint.com/assets/pict/tokyo/pc/#{time.strftime('%H%M')}.jpg"
+    }
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
-  end
 end
