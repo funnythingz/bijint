@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'bijint'
+
+bijint = Bijint::Bijint.new
+
+p bijint.now
