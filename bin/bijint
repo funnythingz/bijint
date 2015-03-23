@@ -5,9 +5,9 @@ require 'bijint'
 bijint = Bijint::Bijint.new
 
 if ARGV.empty?
-  p bijint.now
+  puts bijint.now
 else
-  p bijint.random      if ARGV.first == 'random'
-  p bijint.lgtm        if ARGV.first == 'lgtm'
-  p bijint.lgtm_random if ARGV.first == 'lgtm_random'
+  puts bijint.random      if ARGV.first == 'random'
+  puts bijint.lgtm        if ARGV.first == 'lgtm'
+  puts bijint.lgtm_random if ARGV.first == 'lgtm_random'
 end
