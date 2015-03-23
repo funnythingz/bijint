@@ -4,4 +4,10 @@ require 'bijint'
 
 bijint = Bijint::Bijint.new
 
-p bijint.now
+if ARGV.empty?
+  p bijint.now
+else
+  p bijint.random      if ARGV.first == 'random'
+  p bijint.lgtm        if ARGV.first == 'lgtm'
+  p bijint.lgtm_random if ARGV.first == 'lgtm_random'
+end
