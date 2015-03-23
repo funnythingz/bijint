@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["funnythingz"]
   spec.email         = ["funnythingz69+github@gmail.com"]
   spec.summary       = %q{bijint is BIJIN TOKEI}
-  spec.description   = %q{You fall in love for one minute}
+  spec.description   = %q{You fall in love for one minute.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
