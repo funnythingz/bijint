@@ -3,12 +3,12 @@ require "bijint/version"
 module Bijint
   class Bijint
 
-    def now
-      url('tokyo', Time.now)
+    def now(area = 'tokyo')
+      url(area, Time.now)
     end
 
-    def lgtm
-      "[![bijint](#{url('tokyo', Time.now)})](#{url('tokyo', Time.now)})"
+    def lgtm(area = 'tokyo')
+      "[![bijint](#{url(area, Time.now)})](#{url('tokyo', Time.now)})"
     end
 
     def url(area, time)
