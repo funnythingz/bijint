@@ -7,6 +7,10 @@ module Bijint
       url('tokyo', Time.now)
     end
 
+    def lgtm
+      "[![bijint](#{url('tokyo', Time.now)})](#{url('tokyo', Time.now)})"
+    end
+
     def url(area, time)
       "http://www.bijint.com/assets/pict/#{area}/pc/#{time.strftime('%H%M')}.jpg"
     end
