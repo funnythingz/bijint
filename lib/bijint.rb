@@ -7,7 +7,7 @@ module Bijint
     end
 
     def lgtm
-      "[![bijint](#{url(set_area, Time.now)})](#{url('tokyo', Time.now)})"
+      "[![bijint](#{url(set_area, Time.now)})](#{url(set_area, Time.now)})"
     end
 
     def url(area, time)
