@@ -26,28 +26,28 @@ Or install it yourself as:
 
 ```sh
 % bijint
-"http://www.bijint.com/assets/pict/tokyo/pc/2357.jpg"
+http://www.bijint.com/assets/pict/tokyo/pc/2357.jpg
 ```
 
 ### random
 
 ```sh
 % bijint random
-"http://www.bijint.com/assets/pict/tokyo/pc/0003.jpg"
+http://www.bijint.com/assets/pict/tokyo/pc/0003.jpg
 ```
 
 ### lgtm
 
 ```sh
 % bijint lgtm
-"[![bijint](http://www.bijint.com/assets/pict/tokyo/pc/2357.jpg)](http://www.bijint.com/assets/pict/tokyo/pc/2357.jpg)"
+[![bijint](http://www.bijint.com/assets/pict/tokyo/pc/2357.jpg)](http://www.bijint.com/assets/pict/tokyo/pc/2357.jpg)
 ```
 
 ### lgtm random
 
 ```sh
 % bijint lgtm_random
-"[![bijint](http://www.bijint.com/assets/pict/tokyo/pc/0025.jpg)](http://www.bijint.com/assets/pict/tokyo/pc/0025.jpg)"
+[![bijint](http://www.bijint.com/assets/pict/tokyo/pc/0025.jpg)](http://www.bijint.com/assets/pict/tokyo/pc/0025.jpg)
 ```
 
 ## Contributing
