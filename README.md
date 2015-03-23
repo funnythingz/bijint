@@ -1,5 +1,7 @@
 # Bijint
 
+[![Build Status](https://travis-ci.org/funnythingz/bijint.svg)](https://travis-ci.org/funnythingz/bijint)
+
 You fall in love for one minute.
 
 ## Installation
