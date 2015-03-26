@@ -36,17 +36,17 @@ http://www.bijint.com/assets/pict/tokyo/pc/2357.jpg
 http://www.bijint.com/assets/pict/tokyo/pc/0003.jpg
 ```
 
-### lgtm
+### markdown
 
 ```sh
-% bijint lgtm
+% bijint md
 [![bijint](http://www.bijint.com/assets/pict/tokyo/pc/2357.jpg)](http://www.bijint.com/assets/pict/tokyo/pc/2357.jpg)
 ```
 
-### lgtm random
+### markdown random
 
 ```sh
-% bijint lgtm_random
+% bijint md_random
 [![bijint](http://www.bijint.com/assets/pict/tokyo/pc/0025.jpg)](http://www.bijint.com/assets/pict/tokyo/pc/0025.jpg)
 ```
 
