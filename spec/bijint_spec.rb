@@ -7,7 +7,7 @@ describe Bijint do
 
     it 'now' do
       time = Time.now
-      expect(bijint.now).to eq "http://www.bijint.com/assets/pict/tokyo/pc/#{time.strftime('%H%M')}.jpg"
+      expect(bijint.now).to match /http:\/\/www\.bijint\.com\/assets\/pict\/[a-z0-9]+\/pc\/#{time.strftime('%H%M')}\.jpg/
     end
 
     it 'random' do
