@@ -14,13 +14,13 @@ describe Bijint do
       expect(bijint.random).to match /http:\/\/www\.bijint\.com\/assets\/pict\/tokyo\/pc\/\d{4}\.jpg/
     end
 
-    it 'lgtm' do
+    it 'md' do
       time = Time.now
-      expect(bijint.lgtm).to eq "[![bijint](http://www.bijint.com/assets/pict/tokyo/pc/#{time.strftime('%H%M')}.jpg)](http://www.bijint.com/assets/pict/tokyo/pc/#{time.strftime('%H%M')}.jpg)"
+      expect(bijint.md).to eq "[![bijint](http://www.bijint.com/assets/pict/tokyo/pc/#{time.strftime('%H%M')}.jpg)](http://www.bijint.com/assets/pict/tokyo/pc/#{time.strftime('%H%M')}.jpg)"
     end
 
-    it 'lgtm_random' do
-      expect(bijint.lgtm_random).to match /\[!\[bijint\]\(http:\/\/www\.bijint\.com\/assets\/pict\/tokyo\/pc\/\d{4}\.jpg\)\]\(http:\/\/www\.bijint\.com\/assets\/pict\/tokyo\/pc\/\d{4}\.jpg\)/
+    it 'md_random' do
+      expect(bijint.md_random).to match /\[!\[bijint\]\(http:\/\/www\.bijint\.com\/assets\/pict\/tokyo\/pc\/\d{4}\.jpg\)\]\(http:\/\/www\.bijint\.com\/assets\/pict\/tokyo\/pc\/\d{4}\.jpg\)/
     end
   end
 

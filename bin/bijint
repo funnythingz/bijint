@@ -8,6 +8,6 @@ if ARGV.empty?
   puts bijint.now
 else
   puts bijint.random      if ARGV.first == 'random'
-  puts bijint.lgtm        if ARGV.first == 'lgtm'
-  puts bijint.lgtm_random if ARGV.first == 'lgtm_random'
+  puts bijint.md        if ARGV.first == 'md'
+  puts bijint.md_random if ARGV.first == 'md_random'
 end

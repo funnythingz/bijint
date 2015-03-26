@@ -10,11 +10,11 @@ module Bijint
       url(set_area, time_rand)
     end
 
-    def lgtm
+    def md
       "[![bijint](#{url(set_area, Time.now)})](#{url(set_area, Time.now)})"
     end
 
-    def lgtm_random
+    def md_random
       _time_rand = time_rand
       "[![bijint](#{url(set_area, _time_rand)})](#{url(set_area, _time_rand)})"
     end
