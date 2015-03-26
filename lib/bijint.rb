@@ -2,60 +2,6 @@ require 'bijint/version'
 
 module Bijint
   class Bijint
-    @area = [
-      'kyoto',
-      'shizuoka',
-      'saga',
-      'kobe',
-      'tochigi',
-      'miyazaki',
-      'kagoshima',
-      'hiroshima',
-      'kanazawa',
-      'nara',
-      'hokkaido',
-      'nagasaki',
-      'okayama',
-      'gunma',
-      'sendai',
-      'kanagawa',
-      'fukui',
-      'nagoya',
-      'tottori',
-      'osaka',
-      'akita',
-      'okinawa',
-      'nagano',
-      'saitama',
-      'tokyo',
-      'ibaraki',
-      'iwate',
-      'niigata',
-      'kagawa',
-      'fukuoka',
-      'kumamoto',
-      'yamaguchi',
-      'aomori',
-      'chiba',
-      'yamanashi',
-      'hanayome',
-      '2012jp',
-      'tv-asahi',
-      'sara',
-      'mask-bijin',
-      '2013jp',
-      'cc',
-      'wasedastyle',
-      'megane',
-      'hairstyle',
-      '2011jp',
-      'bimajo',
-      'thailand',
-      'hawaii',
-      'taiwan',
-      'jakarta'
-    ]
-
     def now
       url(set_area, Time.now)
     end
@@ -77,7 +23,7 @@ module Bijint
     end
 
     def set_area
-      %w(kyoto shizuoka saga kobe tochigi miyazaki kagoshima hiroshima kanazawa nara hokkaido nagasaki okayama gunma sendai kanagawa fukui nagoya tottori osaka akita okinawa nagano saitama tokyo ibaraki iwate niigata kagawa fukuoka kumamoto yamaguchi aomori chiba yamanashi hanayome 2012jp tv-asahi sara mask-bijin 2013jp cc wasedastyle megane hairstyle 2011jp bimajo thailand hawaii taiwan jakarta).shuffle.first
+      %w(kyoto shizuoka saga kobe tochigi miyazaki kagoshima hiroshima kanazawa nara hokkaido nagasaki okayama gunma sendai kanagawa fukui nagoya tottori osaka akita okinawa nagano saitama tokyo ibaraki iwate niigata kagawa fukuoka kumamoto yamaguchi aomori chiba yamanashi hanayome 2012jp tv-asahi sara 2013jp cc wasedastyle megane hairstyle 2011jp bimajo thailand hawaii taiwan jakarta).shuffle.first
     end
 
     def time_rand(from = 0.0, to = Time.now)
