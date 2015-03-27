@@ -11,11 +11,14 @@ module Bijint
     end
 
     def md
-      "[![bijint](#{url(set_area, Time.now)})](#{url(set_area, Time.now)})"
+      area = set_area
+      "[![bijint](#{url(area, Time.now)})](#{url(area, Time.now)})"
     end
 
     def md_random
-      "[![bijint](#{url(set_area, time_rand)})](#{url(set_area, time_rand)})"
+      area = set_area
+      date = time_rand
+      "[![bijint](#{url(area, date)})](#{url(area, date)})"
     end
 
     def url(area, time)

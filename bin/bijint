@@ -7,7 +7,7 @@ bijint = Bijint::Bijint.new
 if ARGV.empty?
   puts bijint.now
 else
-  puts bijint.random      if ARGV.first == 'random'
+  puts bijint.random    if ARGV.first == 'random'
   puts bijint.md        if ARGV.first == 'md'
   puts bijint.md_random if ARGV.first == 'md_random'
 end
