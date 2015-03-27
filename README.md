@@ -36,6 +36,20 @@ http://www.bijint.com/assets/pict/tokyo/pc/2357.jpg
 http://www.bijint.com/assets/pict/tokyo/pc/0003.jpg
 ```
 
+### area
+
+```sh
+% bijint area hokkaido
+http://www.bijint.com/assets/pict/hokkaido/pc/2357.jpg
+```
+
+### area random
+
+```sh
+% bijint area_random hokkaido
+http://www.bijint.com/assets/pict/hokkaido/pc/0909.jpg
+```
+
 ### markdown
 
 ```sh
@@ -48,6 +62,20 @@ http://www.bijint.com/assets/pict/tokyo/pc/0003.jpg
 ```sh
 % bijint md_random
 [![bijint](http://www.bijint.com/assets/pict/tokyo/pc/0025.jpg)](http://www.bijint.com/assets/pict/tokyo/pc/0025.jpg)
+```
+
+### markdown area
+
+```sh
+% bijint md_area hokkaido
+[![bijint](http://www.bijint.com/assets/pict/hokkaido/pc/0105.jpg)](http://www.bijint.com/assets/pict/hokkaido/pc/0105.jpg)
+```
+
+### markdown area random
+
+```sh
+% bijint md_area_random hokkaido
+[![bijint](http://www.bijint.com/assets/pict/hokkaido/pc/1837.jpg)](http://www.bijint.com/assets/pict/hokkaido/pc/1837.jpg)
 ```
 
 ## Contributing

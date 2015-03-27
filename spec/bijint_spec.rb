@@ -14,6 +14,16 @@ describe Bijint do
       expect(bijint.random).to match /http:\/\/www\.bijint\.com\/assets\/pict\/[a-z0-9]+\/pc\/\d{4}\.jpg/
     end
 
+    it 'area' do
+      time = Time.now
+      expect(bijint.area 'tokyo').to eq "http://www.bijint.com/assets/pict/tokyo/pc/#{time.strftime('%H%M')}.jpg"
+    end
+
+    it 'area_random' do
+      time = Time.now
+      expect(bijint.area_random 'tokyo').to match /http:\/\/www\.bijint\.com\/assets\/pict\/tokyo\/pc\/\d{4}\.jpg/
+    end
+
     it 'md' do
       time = Time.now
       expect(bijint.md).to match /\[!\[bijint\]\(http:\/\/www\.bijint\.com\/assets\/pict\/[a-z0-9]+\/pc\/#{time.strftime('%H%M')}\.jpg\)\]\(http:\/\/www\.bijint\.com\/assets\/pict\/[a-z0-9]+\/pc\/#{time.strftime('%H%M')}\.jpg\)/
@@ -21,6 +31,15 @@ describe Bijint do
 
     it 'md_random' do
       expect(bijint.md_random).to match /\[!\[bijint\]\(http:\/\/www\.bijint\.com\/assets\/pict\/[a-z0-9]+\/pc\/\d{4}\.jpg\)\]\(http:\/\/www\.bijint\.com\/assets\/pict\/[a-z0-9]+\/pc\/\d{4}\.jpg\)/
+    end
+
+    it 'md_area' do
+      time = Time.now
+      expect(bijint.md_area 'tokyo').to match /\[!\[bijint\]\(http:\/\/www\.bijint\.com\/assets\/pict\/tokyo\/pc\/\d{4}\.jpg\)\]\(http:\/\/www\.bijint\.com\/assets\/pict\/tokyo\/pc\/\d{4}\.jpg\)/
+    end
+
+    it 'md_area_random' do
+      expect(bijint.md_area_random 'tokyo').to match /\[!\[bijint\]\(http:\/\/www\.bijint\.com\/assets\/pict\/tokyo\/pc\/\d{4}\.jpg\)\]\(http:\/\/www\.bijint\.com\/assets\/pict\/tokyo\/pc\/\d{4}\.jpg\)/
     end
   end
 
