@@ -28,25 +28,29 @@ module Bijint
 
     def md
       url = now
-      "[![bijint](#{now})](#{now})"
+      create_md(url)
     end
 
     def md_random
       url = random
-      "[![bijint](#{url})](#{url})"
+      create_md(url)
     end
 
     def md_area(area)
       url = area(area)
-      "[![bijint](#{url})](#{url})"
+      create_md(url)
     end
 
     def md_area_random(area)
       url = area_random(area)
-      "[![bijint](#{url})](#{url})"
+      create_md(url)
     end
 
     private
+
+    def create_md(url)
+      "[![bijint](#{url})](#{url})"
+    end
 
     def url(area, time)
       "http://www.bijint.com/assets/pict/#{area}/pc/#{time.strftime('%H%M')}.jpg"
