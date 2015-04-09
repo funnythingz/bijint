@@ -76,6 +76,7 @@ http://www.bijint.com/assets/pict/hokkaido/pc/0909.jpg
 ```sh
 % bijint md_area_random hokkaido
 [![bijint](http://www.bijint.com/assets/pict/hokkaido/pc/1837.jpg)](http://www.bijint.com/assets/pict/hokkaido/pc/1837.jpg)
+```
 
 ### list
 
