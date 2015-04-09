@@ -46,6 +46,10 @@ module Bijint
       create_md(url)
     end
 
+    def list
+      area_list.sort.join(' ')
+    end
+
     private
 
     def create_md(url)
