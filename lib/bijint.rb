@@ -61,7 +61,7 @@ module Bijint
     end
 
     def area_list
-      %w(kyoto shizuoka saga kobe tochigi miyazaki kagoshima hiroshima kanazawa nara hokkaido nagasaki okayama gunma sendai kanagawa fukui nagoya tottori osaka akita okinawa nagano saitama tokyo ibaraki iwate niigata kagawa fukuoka kumamoto yamaguchi aomori chiba yamanashi hanayome 2012jp tv-asahi sara 2013jp cc wasedastyle megane hairstyle 2011jp bimajo thailand hawaii taiwan jakarta)
+      %w(kyoto shizuoka saga kobe tochigi miyazaki kagoshima hiroshima kanazawa nara hokkaido nagasaki okayama gunma sendai kanagawa fukui nagoya tottori osaka akita okinawa nagano saitama tokyo ibaraki iwate niigata kagawa fukuoka kumamoto yamaguchi aomori chiba yamanashi hanayome 2012jp sara 2013jp cc wasedastyle megane hairstyle 2011jp bimajo thailand hawaii taiwan jakarta)
     end
 
     def set_area

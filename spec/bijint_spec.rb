@@ -43,7 +43,7 @@ describe Bijint do
     end
 
     it 'list' do
-      expect(bijint.list).to eq '2011jp 2012jp 2013jp akita aomori bimajo cc chiba fukui fukuoka gunma hairstyle hanayome hawaii hiroshima hokkaido ibaraki iwate jakarta kagawa kagoshima kanagawa kanazawa kobe kumamoto kyoto megane miyazaki nagano nagasaki nagoya nara niigata okayama okinawa osaka saga saitama sara sendai shizuoka taiwan thailand tochigi tokyo tottori tv-asahi wasedastyle yamaguchi yamanashi'
+      expect(bijint.list).to eq '2011jp 2012jp 2013jp akita aomori bimajo cc chiba fukui fukuoka gunma hairstyle hanayome hawaii hiroshima hokkaido ibaraki iwate jakarta kagawa kagoshima kanagawa kanazawa kobe kumamoto kyoto megane miyazaki nagano nagasaki nagoya nara niigata okayama okinawa osaka saga saitama sara sendai shizuoka taiwan thailand tochigi tokyo tottori wasedastyle yamaguchi yamanashi'
     end
   end
 
